@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="link-haven - Save it once. Actually find it again.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06121f"/><stop offset="0.55" stop-color="#0b2033"/><stop offset="1" stop-color="#0b2033"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.14" cy="0.1" r="0.66">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.20"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.20"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#254a68" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#g1)"/>
+  <rect width="1200" height="300" fill="url(#g2)"/>
+
+  <g transform="translate(80,80)">
+    <rect width="140" height="140" rx="34" fill="#0e2337" stroke="#1a3550" stroke-width="1.5"/>
+    <g transform="translate(20,20) scale(1.0)"><path d="M34 26 H66 V74 L50 62 L34 74 Z" fill="none" stroke="#38bdf8" stroke-width="7" stroke-linejoin="round"/></g>
+  </g>
+
+  <text x="258" y="140" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="1.5" fill="#eaf6ff">link-haven</text>
+  <rect x="260" y="166" width="640" height="1.6" fill="#254a68"/>
+  <text x="260" y="196" font-family="Segoe UI, system-ui, sans-serif" font-size="16.5" fill="#8fb3d0">Save it once. Actually find it again.</text>
+
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#c9e4ff">
+    <rect x="260" y="232" width="92" height="32" rx="16" fill="#0e2337" stroke="#2b587c"/>
+    <text x="306" y="253" text-anchor="middle">React 19</text>
+    <rect x="364" y="232" width="59" height="32" rx="16" fill="#0e2337" stroke="#2b587c"/>
+    <text x="393" y="253" text-anchor="middle">Vite</text>
+    <rect x="434" y="232" width="100" height="32" rx="16" fill="#0e2337" stroke="#2b587c"/>
+    <text x="484" y="253" text-anchor="middle">Express 5</text>
+    <rect x="546" y="232" width="108" height="32" rx="16" fill="#0e2337" stroke="#2b587c"/>
+    <text x="600" y="253" text-anchor="middle">PostgreSQL</text>
+    <rect x="666" y="232" width="108" height="32" rx="16" fill="#0e2337" stroke="#2b587c"/>
+    <text x="720" y="253" text-anchor="middle">TypeScript</text>
+  </g>
+
+  <g transform="translate(940,72)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#0e2337" stroke="#2b587c"/>
+    <circle cx="24" cy="17" r="5" fill="#38bdf8"/>
+    <text x="40" y="22" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#c9e4ff">link-haven</text>
+  </g>
+
+  <rect x="0" y="297" width="1200" height="3" fill="url(#mark)" opacity="0.55"/>
+</svg>
